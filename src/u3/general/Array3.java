@@ -8,12 +8,14 @@ class Array3 {
         Scanner teclado = new Scanner(System.in);
  
         int[] datos = new int[5];
-        for (int i=0; i<5; i++)
+        for (int i=0; i<2; i++)
         {
             System.out.print( "Deme el dato "+i+": " );
             datos[i] = teclado.nextInt();
         }
  
+        System.out.print( datos.length);
+        
         for (int i=4; i>=0; i--)
         {
             System.out.println( "El dato "+ i +" vale " + datos[i] );
