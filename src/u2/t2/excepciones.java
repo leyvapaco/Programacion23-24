@@ -7,9 +7,9 @@ public static void main(String[] args) {
 	int b = 0;
 	try {
 	c = a / b;
-	} catch (Exception e) {
-	System.out.println("Estoy en el primer catch");
 	} catch (ArithmeticException e) {
+	System.out.println("Estoy en el primer catch");
+	} catch (Exception e) {
 	System.out.println("Estoy en el segundo catch");
 	}
 
