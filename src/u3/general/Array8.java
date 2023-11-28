@@ -6,6 +6,14 @@ package u3.general;
 
 class Array8 {
  public static void main( String[] args ) {
+	 
+	 char [] cadena = new char[8];
+	 
+	 cadena[0]='p';
+	 cadena[1]='a';
+	 System.out.println(cadena);
+	 
+	 
 
      int[][] datos = new int[11][3];
      datos[0][0] = 1; //dorsal
