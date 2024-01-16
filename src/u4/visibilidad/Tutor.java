@@ -1,4 +1,4 @@
-package u4.insti.visibilidad;
+package u4.visibilidad;
 
 import u4.insti.Profesor;
 //Si quito public a la clase no puede ser accedida desde otro paquete
