@@ -1,6 +1,6 @@
 package u4.insti;
 
-import u4.insti.visibilidad.Tutor;
+import u4.visibilidad.Tutor;
 
 public class Principal {
 public static void main(String[] args) {
