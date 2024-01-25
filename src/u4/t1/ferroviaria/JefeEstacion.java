@@ -14,4 +14,9 @@ public class JefeEstacion extends Personal {
 		System.out.println("DNI: "+this.dni);
 		
 	}
+	
+	@Override
+	public String toString() {
+		return("El personal "+nombre+ " es Jefe de Estación");
+	}
 }

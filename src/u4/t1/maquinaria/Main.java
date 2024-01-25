@@ -5,6 +5,7 @@ import java.util.Scanner;
 import u4.t1.ferroviaria.JefeEstacion;
 import u4.t1.ferroviaria.Maquinista;
 import u4.t1.ferroviaria.Mecanico;
+import u4.t1.ferroviaria.Personal;
 
 public class Main {
 	public static void main(String[] args) {
@@ -49,5 +50,23 @@ public class Main {
 			tren1.getInfoMaquinaria();	
 			tren1.acelera();
 			tren1.frena();
+			
+			System.out.println("\n----INSTANCE OF-----");
+			
+			Personal per1=new Personal("Paco","24.345.678D");
+
+			//Prueba a comentar la linea anterior
+			// y descomentar la siguiente y observa la salida
+			//Personal per1=new JefeEstacion("Paco","24.345.678D");
+			
+			// Añado un objeto de tipo Personal
+			// para ver uso de instanceof 
+			// y sobrecarga de método de Object toString()
+			
+			
+			if (per1 instanceof Personal) {
+				System.out.println(per1.toString());
+			}
+			
 	}
 }
