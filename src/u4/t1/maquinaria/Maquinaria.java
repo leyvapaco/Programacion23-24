@@ -1,10 +1,10 @@
 package u4.t1.maquinaria;
 
 
-public  class Maquinaria implements Homologado {
+public abstract class Maquinaria implements Homologado {
 	private boolean certificado=false;
 	
-	public void getInfoMaquinaria() {};
+	public abstract void getInfoMaquinaria();
 	
 	public void certifica(String identidad) {
 		this.certificado=true;
