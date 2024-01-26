@@ -18,7 +18,7 @@ public class Main {
 			Vagon vagon1 = new Vagon(4321, 288, "Carbón");
 			Vagon vagon2 = new Vagon(4322, 588, "Madera");
 			
-			Locomotora locomotora1 = new Locomotora("2467 JBG", 7600,"2010", mecanico1);
+			Locomotora locomotora1 = new Locomotora("2467 SCP", 7600,"2010", mecanico1);
 			Tren tren1 = new Tren(locomotora1, maquinista1);
 			
 			tren1.addVagon(vagon1);
@@ -63,10 +63,12 @@ public class Main {
 			// para ver uso de instanceof 
 			// y sobrecarga de método de Object toString()
 			
-			
-			if (per1 instanceof Personal) {
-				System.out.println(per1.toString());
+			if (per1 instanceof JefeEstacion) {
+				System.out.println(per1.getClass().toString());
 			}
+		
+			
+			System.out.println(per1.toString());
 			
 	}
 }
