@@ -1,4 +1,4 @@
-package u4.t1.actividad6;
+package u5.t1.actividad6;
 
 public class Main {
     public static void main(String[] args) {

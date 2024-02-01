@@ -1,10 +1,10 @@
-package u4.t1.actividad6;
+package u5.t1.actividad6;
 
-public class Piano extends Instrumento {
+public class Campana extends Instrumento {
 
     @Override
     public void interpretar() {
-        System.out.print("En el piano suena: ");
+        System.out.print("En la campana se escucha: ");
         for (int i = 0; i < contadorNotas; i++) {
             System.out.print(notasMusicales[i] + " ");
         }

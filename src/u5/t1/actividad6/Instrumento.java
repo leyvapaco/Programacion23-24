@@ -1,4 +1,4 @@
-package u4.t1.actividad6;
+package u5.t1.actividad6;
 
 	public abstract class Instrumento {
 		private final static int TAM_MAX = 100;
