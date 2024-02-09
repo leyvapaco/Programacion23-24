@@ -13,8 +13,6 @@ public class CreaAgenda{
     os.writeObject(a1);//El método writeObject() serializa el objeto y lo escribe en el archivo
     os.writeObject(a2);
     os.close();//Hay que cerrar siempre el archivo
-  }catch(FileNotFoundException e){
-    e.printStackTrace();
   }catch(IOException e){
     e.printStackTrace();
   }
