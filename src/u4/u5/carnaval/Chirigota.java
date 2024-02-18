@@ -13,7 +13,7 @@ public class Chirigota extends AgrupacionOficial implements Callejera{
 	protected int numCuples;
 
 	
-	Chirigota(String nombre, String autor, String autorMusica, String autorLetra, String tipo,int numCuples,int numIntegrantes) {
+	public Chirigota(String nombre, String autor, String autorMusica, String autorLetra, String tipo,int numCuples,int numIntegrantes) {
 		super(nombre, autor, autorMusica, autorLetra, tipo, numIntegrantes);
 		this.numCuples = numCuples;
 		

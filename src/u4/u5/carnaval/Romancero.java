@@ -12,7 +12,7 @@ public class Romancero extends Agrupacion implements Callejera{
 
 	protected String tematicaCartelo;
 	
-	Romancero(String nombre, String autor, String autorMusica, String autorLetra, String tipo,String tematica) {
+	public Romancero(String nombre, String autor, String autorMusica, String autorLetra, String tipo,String tematica) {
 		super(nombre, autor, autorMusica, autorLetra, tipo);
 		this.tematicaCartelo = tematica;
 		// TODO Auto-generated constructor stub

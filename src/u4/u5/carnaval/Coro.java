@@ -4,7 +4,7 @@ public class Coro extends AgrupacionOficial {
 	protected int numBandurrias;
 	protected int numGuitarras;
 	
-	Coro(String nombre, String autor, String autorMusica, String autorLetra, String tipo, int numBandurrias , int numGuitarras,int numIntegrantes) {
+	public Coro(String nombre, String autor, String autorMusica, String autorLetra, String tipo, int numBandurrias , int numGuitarras,int numIntegrantes) {
 		super(nombre, autor, autorMusica, autorLetra, tipo,numIntegrantes);
 		this.numBandurrias = numBandurrias;
 		this.numGuitarras = numGuitarras;

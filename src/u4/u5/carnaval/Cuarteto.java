@@ -5,7 +5,7 @@ import java.util.Arrays;
 public class Cuarteto extends AgrupacionOficial implements Callejera{
 	protected int numMiembros;
 	
-	Cuarteto(String nombre, String autor, String autorMusica, String autorLetra, String tipo, int numMiembros) {
+	public Cuarteto(String nombre, String autor, String autorMusica, String autorLetra, String tipo, int numMiembros) {
 		super(nombre, autor, autorMusica, autorLetra, tipo,4);
 		this.numMiembros = numMiembros;
 		// TODO Auto-generated constructor stub

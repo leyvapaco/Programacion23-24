@@ -13,7 +13,7 @@ public class Comparsa extends AgrupacionOficial {
 
 	private String empresaAtrezo;
 	
-	Comparsa(String nombre, String autor, String autorMusica, String autorLetra, String tipo , String empresaAtrezo, int numIntegrantes) {
+	public Comparsa(String nombre, String autor, String autorMusica, String autorLetra, String tipo , String empresaAtrezo, int numIntegrantes) {
 		super(nombre, autor, autorMusica, autorLetra, tipo, numIntegrantes);
 		this.empresaAtrezo = empresaAtrezo;
 		// TODO Auto-generated constructor stub
