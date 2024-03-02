@@ -8,7 +8,7 @@ import u7.ejemplos2.Articulo;
 
 public class Principal {
 	public static void main(String[] args) {
-		MiLista lista =new MiLista();
+		ListaOrdenada lista =new ListaOrdenada();
 	
 		lista.insertarOrdenado(2);
 		System.out.println(lista);

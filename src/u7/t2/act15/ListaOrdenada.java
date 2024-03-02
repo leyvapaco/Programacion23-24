@@ -6,11 +6,11 @@ import java.util.List;
 
 import u7.ejemplos2.Articulo;
 
-public class MiLista extends LinkedList{
+public class ListaOrdenada extends LinkedList{
 	
 	private List <Integer> miLista;
 	
-	MiLista(){
+	ListaOrdenada(){
 		miLista =new LinkedList<Integer>();
 	}
 	
