@@ -1,4 +1,4 @@
-package ev2.examen;
+package ev2.exam;
 
 //Tanto el interfaz como los métodos que contengan deben ser públicos
 

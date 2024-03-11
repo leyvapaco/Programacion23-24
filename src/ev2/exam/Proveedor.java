@@ -1,4 +1,4 @@
-package ev2.examen;
+package ev2.exam;
 
 public class Proveedor {
 	

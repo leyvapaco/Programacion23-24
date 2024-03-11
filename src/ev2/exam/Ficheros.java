@@ -1,4 +1,4 @@
-package ev2.examen;
+package ev2.exam;
 
 import java.io.EOFException;
 import java.io.FileInputStream;
@@ -9,7 +9,7 @@ import java.util.Iterator;
 import java.util.Map;
 import java.util.Set;
 
-import ev2.examen.Optica.Tipo;
+import ev2.exam.Optica.Tipo;
 
 
 public class Ficheros {

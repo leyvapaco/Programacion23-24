@@ -1,4 +1,4 @@
-package ev2.examen;
+package ev2.exam;
 
 public class GafaGraduada extends Gafa {
 	private static final long serialVersionUID = 1L;

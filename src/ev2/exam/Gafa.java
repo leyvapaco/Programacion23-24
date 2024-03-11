@@ -1,4 +1,4 @@
-package ev2.examen;
+package ev2.exam;
 
 import java.io.Serializable;
 //Todas las clases que vayan a almacenarse en fichero deben implementar Serializable

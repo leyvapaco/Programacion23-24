@@ -1,9 +1,9 @@
-package ev2.examen;
+package ev2.exam;
 
-import ev2.examen.LenteGraduada.PROBLEMA;
-import ev2.examen.LenteSol.COLOR;
-import ev2.examen.Montura.MATERIAL;
-import ev2.examen.Optica.Tipo;
+import ev2.exam.LenteGraduada.PROBLEMA;
+import ev2.exam.LenteSol.COLOR;
+import ev2.exam.Montura.MATERIAL;
+import ev2.exam.Optica.Tipo;
 
 
 public class Principal {
