@@ -5,6 +5,7 @@ import ev2.examen.LenteSol.COLOR;
 import ev2.examen.Montura.MATERIAL;
 import ev2.examen.Optica.Tipo;
 
+
 public class Principal {
 	
 	public static void main(String[] args) {
@@ -68,8 +69,6 @@ public class Principal {
 	opt1.delGafas(gafaSol2);//Borro una gafa del proveedor AlfonsoVision
 	Optica.cuantasGafas();
 	opt1.gafasByProvedor();
-		
-
 	
 	}
 }

@@ -54,7 +54,7 @@ public class Optica {
 		// Los vuelco en un TreeSet para que use el comparador por defecto de Gafa_sol
 		
         Set<Gafa> lista_gafas = new TreeSet<>(stock.get(Tipo.SOL));
-        System.out.println("\nGafas ordenaas por nombre de proveedor:\n"+lista_gafas);
+        System.out.println("\nGafas ordenadas por nombre de proveedor:\n"+lista_gafas);
 	}
 	
 		

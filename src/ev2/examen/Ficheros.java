@@ -11,6 +11,7 @@ import java.util.Set;
 
 import ev2.examen.Optica.Tipo;
 
+
 public class Ficheros {
 	public static void escribeFicheroSol(Map<Tipo,Set<Gafa>> stock ) {
 

@@ -2,9 +2,9 @@ package ev2.examen;
 
 public class Proveedor {
 	
-	private String CIF;
-	private String nombre;
-	private String telef;
+	protected String CIF;
+	protected String nombre;
+	protected String telef;
 	
 	public Proveedor(String cif, String nombre, String telef) {
 		this.CIF = cif;
