@@ -7,7 +7,10 @@ public class Articulo implements Comparable<Articulo> {
  private String descripcion;
  private double precio;
  
- 
+
+ public Articulo(String codigo) {
+		this.codigo = codigo;
+		}
  
 public Articulo(String codigo, String descripcion, double precio) {
 	this.codigo = codigo;
@@ -39,9 +42,8 @@ public int compareTo(Articulo o) {
 }
 @Override
 public String toString() {
-	return descripcion ;
+	return descripcion+" "+precio ;
 }
-
 
  
 }

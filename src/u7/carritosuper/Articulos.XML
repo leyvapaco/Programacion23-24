@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Articulos>
+	<Articulo codigo="001">
+		<descripcion>Lápiz</descripcion>
+		<precio>4.55</precio>
+	</Articulo>
+	
+	<Articulo codigo="002">
+		<descripcion>Goma</descripcion>
+		<precio>3.25</precio>
+	</Articulo>
+	
+		<Articulo codigo="003">
+		<descripcion>Sacapuntas</descripcion>
+		<precio>2.75</precio>
+	</Articulo>
+
+</Articulos>
+
