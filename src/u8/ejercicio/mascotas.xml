@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mascotas>
+	<!-- Relación de mascotas -->
+	<mascota tipo="perro" chip="01CL">
+        <nombre>Coke</nombre>
+        <propietario>24.314.625L</propietario>
+    </mascota>
+    <mascota tipo="perro" chip="02PD">
+        <nombre>Pulgoso</nombre>
+        <propietario>23.324.655P</propietario>
+    </mascota>
+    <mascota tipo="hamster">
+        <nombre>Gus</nombre>
+        <propietario>23.324.655P</propietario>
+    </mascota>
+    <propietario>
+		<dni>24.314.625L</dni>
+		<nombre>Lucía</nombre>
+	</propietario>
+    <propietario>
+		<dni>23.324.655P</dni>
+		<nombre>Pedro</nombre>
+	</propietario>
+</mascotas>
