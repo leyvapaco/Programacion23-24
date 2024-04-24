@@ -67,7 +67,7 @@ public class Main {
 				System.out.println(per1.getClass().toString());
 			}
 		
-			
+			// Indico el cargo:
 			System.out.println(per1.toString());
 			
 	}

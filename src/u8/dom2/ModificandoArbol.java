@@ -40,7 +40,7 @@ public class ModificandoArbol {
 
 
             root.insertBefore(comentario,primeraPersona);
-/*
+
             //2 - Uso de appendChild()
             //Vamos a insertar un nuevo nodo Element persona
 
@@ -91,7 +91,7 @@ public class ModificandoArbol {
             // y puedo ver como me quedo con 3 nodos.
             root.replaceChild(personaClonada,primeraPersona);
 
-*/
+
             // PROCEDEMOS A VOLCAR TODAS LAS MODIFICACIONES, TODO ÉL ARBOL AL FICHERO
 
             //Obtenemos el objeto transformer

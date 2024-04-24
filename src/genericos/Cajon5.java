@@ -49,8 +49,7 @@ public class Cajon5<T>  {
 		 System.out.println("\n");
 		 
 		 List <MaterialOficina> material= new ArrayList<>();
-		 
-		 
+		 		 
 		 material.addAll(cajonOficina.get());
 
 		 for (MaterialOficina b : material) {

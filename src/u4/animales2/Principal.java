@@ -40,6 +40,8 @@ public class Principal {
 		serp1.comunicate();
 		serp1.reproducete();
 		serp1.morder(Especies.COBRA);
+		
+		System.out.println(Especies.COBRA);
 
 	  //serp1.morder(Especies.VIBORA);
 		

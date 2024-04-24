@@ -10,6 +10,7 @@ public class Profesor {
 	
 	//Protected: Puede ser accedido en el mismo paquete y subclases
 	//En este caso es accedido desde una subclase de otro paquete (Tutor)
+	//Podría ser public pero no default
 	protected Profesor() {
 		num_profes++;
 	}

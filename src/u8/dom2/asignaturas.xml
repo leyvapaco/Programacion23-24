@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<asignaturas>
+    <asignatura>
+        <nombre>Inglés</nombre>
+        <profesor>Peter</profesor>
+    </asignatura>
+    <asignatura>
+        <nombre>Italiano</nombre>
+        <profesor>Anke</profesor>
+    </asignatura>
+    <asignatura>
+        <nombre>Alemán</nombre>
+        <profesor>Anke</profesor>
+    </asignatura>
+    <asignatura>
+        <nombre>Alemán</nombre>
+        <profesor>Anke</profesor>
+    </asignatura>
+</asignaturas>
