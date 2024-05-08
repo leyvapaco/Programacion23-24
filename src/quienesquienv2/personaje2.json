@@ -1,0 +1,18 @@
+{
+	"identidad":"Ana Mena",
+	"listaPistas": [
+		{
+			"atributo": "Tiene pelo",
+			"valor": "sí"
+		},
+		{
+			"atributo": "Color pelo",
+			"valor": "Rubio"
+		},
+		{
+			"atributo": "profesión",
+			"valor": "cantante"
+		}
+		
+	]
+}

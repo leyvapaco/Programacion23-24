@@ -1,0 +1,14 @@
+{
+	"identidad":"Vinicius JR",
+	"listaPistas": [
+		{
+			"atributo": "Tiene pelo",
+			"valor": "sí"
+		},
+			{
+			"atributo": "profesión",
+			"valor": "futbolista"
+		}
+		
+	]
+}
