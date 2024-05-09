@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<plantilla>
+	<tecnico>
+        <nombre>Carlo Angelotte</nombre>
+        <puesto>Entrenador</puesto>
+    </tecnico>
+    <tecnico>
+        <nombre>Juan Aguador</nombre>
+        <puesto>Utillero</puesto>
+    </tecnico>
+    <jugador perfil="titular">
+        <dorsal>13</dorsal>
+        <nombre>Lupin</nombre>
+        <demarcacion>Portero</demarcacion>    
+        <ficha>12.35</ficha>
+    </jugador>
+    <jugador perfil="suplente">
+        <dorsal>1</dorsal>
+        <nombre>Paké</nombre>
+        <demarcacion>Portero</demarcacion>    
+        <ficha>3.45</ficha>
+    </jugador>
+    <jugador perfil="titular">
+        <dorsal>4</dorsal>
+        <nombre>Sergio Randoms</nombre>
+        <demarcacion>Defensa</demarcacion>    
+        <ficha>21</ficha>
+    </jugador>
+    <jugador perfil="suplente">
+        <dorsal>7</dorsal>
+        <nombre>Dani Cabellos</nombre>
+        <demarcacion>Centrocampista</demarcacion>    
+        <ficha>11.5</ficha>
+    </jugador>
+    <jugador perfil="titular">
+        <dorsal>27</dorsal>
+        <nombre>Yazmine Chaval</nombre>
+        <demarcacion>Delantero</demarcacion>    
+        <ficha>34</ficha>
+    </jugador>
+    <jugador perfil="titular">
+        <dorsal>9</dorsal>
+        <nombre>Kilian Rmanué</nombre>
+        <demarcacion>Delantero</demarcacion>    
+        <ficha>90</ficha>
+    </jugador>
+</plantilla>
