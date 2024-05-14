@@ -6,8 +6,9 @@ import java.sql.SQLException;
 public class Conexion {
 
 	private static final String CONTROLADOR = "com.mysql.jdbc.Driver";
-	private static final String URL = "jdbc:mysql://localhost:33060/classicmodels?useSSL=false"
+	private static final String URL = "jdbc:mysql://localhost:33060/classicmodels?allowPublicKeyRetrieval=true?useSSL=false"
 			+ "&useUnicode=true&useJDBCCompliantTimezoneShift=true&useLegacyDatetimeCode=false&serverTimezone=UTC";
+	
 	private static final String USUARIO = "root";
 	private static final String CLAVE = "paco";
 

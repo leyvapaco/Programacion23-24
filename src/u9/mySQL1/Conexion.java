@@ -7,11 +7,8 @@ public class Conexion {
 
 	private static final String CONTROLADOR = "com.mysql.jdbc.Driver";
 	
-	//Usar esta URL para la primera vez que conectamos:
-	private static final String URL = "jdbc:mysql://localhost:33060/classicmodels";
-
 	//Una vez conectados, usar esta URL en lugar de la anterior
-	//private static final String URL = "jdbc:mysql://localhost:33060/classicmodels?useSSL=false";
+	private static final String URL = "jdbc:mysql://localhost:33060/classicmodels?allowPublicKeyRetrieval=true&useSSL=false";
 	private static final String USUARIO = "root";
 	private static final String CLAVE = "paco";
 
