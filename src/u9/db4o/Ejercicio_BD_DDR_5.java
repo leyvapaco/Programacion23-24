@@ -53,6 +53,7 @@ public class Ejercicio_BD_DDR_5 {
         
         while(result3.hasNext()){
             System.out.println(result3.next());
+        //  db.delete(p);
         }     
         
         db.close();
