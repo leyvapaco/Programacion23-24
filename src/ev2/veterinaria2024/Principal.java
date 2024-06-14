@@ -2,7 +2,6 @@ package ev2.veterinaria2024;
 
 import ev2.veterinaria2024.Animal.Sexo;
 
-//OJO import java.util.Date;
 
 public class Principal {
 	public static void main(String[] args) throws InterruptedException {

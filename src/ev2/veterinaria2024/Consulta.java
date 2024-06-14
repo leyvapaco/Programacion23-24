@@ -14,14 +14,14 @@ import java.util.ArrayList;
 public class Consulta {
 	private Date fecha;
 	private Animal animal;
-	private String Diagnostico;
+	private String diagnostico;
 	ArrayList<Medicamento> listaMedicinas;
 	
 	public Consulta(Animal animal, String diagnostico) {
 		super();
 		this.fecha = new Date();
 		this.animal = animal;
-		Diagnostico = diagnostico;
+		this.diagnostico = diagnostico;
 		this.listaMedicinas = new ArrayList<Medicamento>();
 		
 	}
@@ -56,7 +56,7 @@ public class Consulta {
 		
 	@Override
 	public String toString() {
-		return "Consulta [fecha=" + fecha + ", animal=" + animal + ", Diagnostico=" + Diagnostico + ", medicinas="
+		return "Consulta [fecha=" + fecha + ", animal=" + animal + ", Diagnostico=" + diagnostico + ", medicinas="
 				+ listaMedicinas + "]";
 	}
 		

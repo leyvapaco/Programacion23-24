@@ -11,7 +11,7 @@ public class Gato extends Domestico implements Contacta{
 	}
 
 	public void cortaUnas() {
-		this.peso-=50.0;
+		this.peso-=20.0;
 	}
 	
 	public void contactaPropietario() {

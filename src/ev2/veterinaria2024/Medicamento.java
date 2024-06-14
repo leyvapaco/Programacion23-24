@@ -1,6 +1,5 @@
 package ev2.veterinaria2024;
 
-import genericos.Lapiz;
 
 public class Medicamento implements Comparable<Medicamento> {
 	public String nombre;
@@ -8,7 +7,6 @@ public class Medicamento implements Comparable<Medicamento> {
 	public double precio;
 	
 	public Medicamento(String nombre, int gramos, double precio) {
-		super();
 		this.nombre = nombre;
 		this.gramos = gramos;
 		this.precio = precio;
